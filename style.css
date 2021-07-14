@@ -111,6 +111,26 @@ bottom section or match section styles
     flex-direction: column;
     flex-wrap: wrap;
 }
+/* bonus part styles */
+.bonus-part h1{
+    font-size: 48px;
+    font-weight: 700px;
+    text-align: center;
+}
+.bonus-part span{
+    color: coral;
+}
+.bonus-part video{
+    width: 500px;
+    padding-left: 130px;
+    padding-bottom: 85px;   
+}
+.bonus-part iframe{
+    width: 500px;
+    height: 380px;
+    padding-left: 65px;
+    padding-bottom: 85px;
+}
 
 /* -----------------------
       footer styles
