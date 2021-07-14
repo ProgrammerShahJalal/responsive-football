@@ -157,3 +157,48 @@ footer img{
     text-align: center;
     padding-bottom: 63px;
 }
+
+/* media quaries style */
+
+/* Mobile Device */
+@media only screen and (max-width: 688px) {
+    .hero-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 100%;
+    }
+    .half-width{
+        width: 100%;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .bonus-part h1{
+        text-align: center;
+    }
+    .bonus-part video{
+        width: 250px;   
+    }
+    .bonus-part iframe{
+        width: 250px;
+        height: 190px;
+        padding-left: 40%;
+    }
+    footer img{
+        width: 241.94px;
+        height: 55px;
+    }
+
+
+    }
