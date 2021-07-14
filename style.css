@@ -172,6 +172,13 @@ footer img{
     .half-width{
         width: 100%;
     }
+    .half-width h1{
+        font-size: 35px;
+    }
+    #first-one{
+        position: relative;
+        bottom: 50px;
+    }
     .half-width img{
         width: 100%;
     }
@@ -183,17 +190,20 @@ footer img{
     .bottom-section{
         display: flex;
         flex-direction: column;
+        margin-left: 0%;
     }
     .bonus-part h1{
+        font-size: 35px;
         text-align: center;
     }
     .bonus-part video{
-        width: 250px;   
+        width: 250px;
+        padding-left: 2.5%;   
     }
     .bonus-part iframe{
         width: 250px;
         height: 190px;
-        padding-left: 40%;
+        padding-left: 2.5%;
     }
     footer img{
         width: 241.94px;
