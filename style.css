@@ -209,6 +209,68 @@ footer img{
         width: 241.94px;
         height: 55px;
     }
+}
 
-
+/* Tablet Divices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .hero-section{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 50%;
     }
+    .half-width{
+        width: 100%;
+    }
+    .half-width h1{
+        font-size: 35px;
+    }
+    #first-one{
+        position: relative;
+        bottom: 50px;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .players{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 3px;
+            row-gap: 0px;
+            margin-top: 45px;
+            margin-bottom: 50px;
+            margin-left: 0px;
+            margin-right: 0px;
+    }
+    .player-image img{
+        width: 150px;
+        height: 128px;
+    }
+    .player p{
+        padding-right: 35em;
+    }
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .bonus-part h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .bonus-part video{
+        width: 250px;
+        padding-left: 2.5%;   
+    }
+    .bonus-part iframe{
+        width: 250px;
+        height: 190px;
+        padding-left: 2.5%;
+    }
+    footer img{
+        width: 241.94px;
+        height: 55px;
+    }
+
+}
