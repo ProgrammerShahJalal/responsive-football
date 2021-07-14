@@ -53,6 +53,10 @@ button{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+ #animation:hover{
+     transform: rotateZ(20deg);
+     transition: transform 2s ease-in-out;
+ }
 /*------------------------------
  second section or players styles 
  --------------------------------*/
